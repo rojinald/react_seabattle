@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_seabattles/static/css/main.53d25e9d.css",
+    "main.js": "/react_seabattles/static/js/main.cd3ecbb6.js",
+    "index.html": "/react_seabattles/index.html",
+    "main.53d25e9d.css.map": "/react_seabattles/static/css/main.53d25e9d.css.map",
+    "main.cd3ecbb6.js.map": "/react_seabattles/static/js/main.cd3ecbb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53d25e9d.css",
+    "static/js/main.cd3ecbb6.js"
+  ]
+}
