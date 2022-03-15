@@ -1,0 +1,61 @@
+.wrapper {
+  display: flex;
+  margin-top: 70px;
+  justify-content: center;
+}
+
+.cell {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+  position: relative;
+}
+
+.cell:hover {
+  background-color: rgb(202, 202, 202);
+}
+
+.cell.visibleShip {
+  background: rgb(245, 10, 10);
+}
+
+.cell span.leftLine {
+  position: absolute;
+  top: -2px;
+  left: -2rem;
+}
+
+.cell span.topLine {
+  position: absolute;
+  top: -2.4rem;
+  left: 8px;
+}
+
+.seabattlelog {
+  margin-left: 30px;
+  max-width: 250px;
+  width: 100%;
+}
+
+.seabattlelog-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.seabattlelog-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.seabattlelog-list li {
+  font-size: 18px;
+}
